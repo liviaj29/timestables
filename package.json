@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "nanny-state": "^3.0.2"
+  }
+}
