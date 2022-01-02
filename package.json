@@ -1,8 +1,26 @@
 {
-  "devDependencies": {
-    "parcel": "^2.0.1"
+
+  "name": "timestables",
+ 
+  "source": "src/index.html",
+ 
+  "scripts": {
+ 
+    "start": "parcel",
+ 
+    "build": "parcel build"
+ 
   },
+ 
   "dependencies": {
+ 
     "nanny-state": "^3.0.2"
+ 
+  },
+ 
+  "devDependencies": {
+ 
+    "parcel": "latest"
+ 
   }
 }
