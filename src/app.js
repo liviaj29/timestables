@@ -13,7 +13,7 @@ const View = state => html`
 ${state.playing ? html`
 <h2>SCORE: ${state.score}/10</h2>
 <div id="question">${state.question} ${state.userAnswer} ${state.result} </div>
-<form onsubmit = ${answer}>
+<form autocomplete="off" onsubmit = ${answer}>
   <input type='text' name = 'name' id = 'answer'>
 </form>`
 : html`

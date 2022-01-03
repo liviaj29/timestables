@@ -1,0 +1,105 @@
+:root{
+    --background: #232333;
+    --text: #bababa;
+    --gradient-1: linear-gradient(135deg, coral, thistle, teal);
+    --gradient-2: linear-gradient(135deg, blue, thistle, yellow)
+  }
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  html{
+    font: 18px monospace;
+  }
+  
+  body{
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    color: #8a8f98;
+    text-align: center;
+  }
+  
+  img,
+  picture {
+    max-width: 100%;
+    display: block;
+  }
+  
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+  
+  html{
+    background: var(--background);
+    font: 18px sans-serif;
+  }
+  
+  body{
+    text-align: center;
+  }
+  
+  h1,h2{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    text-align: center;
+  
+  }
+  
+  h1{
+    background: var(--gradient-1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-size: 100%;
+    -webkit-box-decoration-break: clone;
+  }
+  
+  h2{
+    font-size: 24px;
+    background: var(--gradient-2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-size: 100%;
+    -webkit-box-decoration-break: clone;
+  }
+  
+  button{
+    color: var(--text);
+    background: transparent;
+    border: 1px var(--text) solid;
+    padding: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    min-width: 10em;
+    margin: 4px;
+  }
+  
+  button:hover, button:active, button:focus{
+    background: var(--text);
+    color: var(--background);
+    border-color: var(--background);
+  }
+  
+  #answer{
+    background: rgba(255,255,255,0.2);
+    border-radius: 8px;
+    width: 3em;
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  #question{
+    text-align: center;
+    font-size: 60px;
+  }
+/*# sourceMappingURL=index.be5cf2f4.css.map */
